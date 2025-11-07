@@ -1,0 +1,49 @@
+# ======================
+# ⚙️ CONFIGURAÇÃO GERAL
+# ======================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.tmp
+.DS_Store
+.env
+venv/
+.env/
+.idea/
+.ipynb_checkpoints/
+
+# ======================
+# 💾 ARQUIVOS GRANDES / DADOS
+# ======================
+*.npy
+*.npz
+*.h5
+*.pt
+*.pth
+*.pkl
+*.csv
+*.xlsx
+*.zip
+
+# ======================
+# 🧠 DATASETS DE IMAGEM
+# ======================
+# Ignora todas as imagens dentro do dataset
+Brain-Tumor-Detect-IA/brain_tumor_dataset/no/*
+Brain-Tumor-Detect-IA/brain_tumor_dataset/yes/*
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.gif
+*.tiff
+
+# ======================
+# 📂 MODELOS E RESULTADOS
+# ======================
+models/
+checkpoints/
+outputs/
+results/
