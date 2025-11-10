@@ -1,0 +1,6 @@
+{
+    "out_channels_1": 64,
+    "out_channels_2": 128,
+    "fc1_units": 381,
+    "dropout_rate": 0.11416257436418707
+}
