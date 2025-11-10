@@ -40,36 +40,28 @@ Scikit-learn
 
 OpenCV/PIL para processamento de imagens
 
-📁 Estrutura do Projeto
-text
-brain-tumor-classification/
-├── src/
-│   ├── train.py
-│   ├── optuna_optimization.py
-│   ├── models/
-│   └── utils/
-├── data/
-├── results/
-├── models/
-└── README.md
 🔧 Instalação e Uso
 Clone o repositório:
 
-bash
+```bash
 git clone https://github.com/seu-usuario/brain-tumor-classification.git
 cd brain-tumor-classification
+```
+
 Instale as dependências:
 
-bash
+```bash
 pip install -r requirements.txt
+```
 Execute o fine-tuning com Optuna:
 
-bash
+```bash
 python src/optuna_optimization.py
+```
 Treine o modelo com os melhores parâmetros:
-
-bash
+```bash
 python src/train.py
+```
 ⚙️ Otimização com Optuna
 O Optuna é utilizado para otimizar:
 
@@ -98,3 +90,7 @@ https://github.com/Fff4ntinh0/Brain-Tumor-Detect-IA/
 Agradecimentos especiais ao autor do repositório original pelo trabalho fundamental na detecção de tumores cerebrais usando IA.
 
 Nota: Este projeto é para fins educacionais e de pesquisa.
+
+----------
+⚙️Autor: 
+Vinicius Mantovam
